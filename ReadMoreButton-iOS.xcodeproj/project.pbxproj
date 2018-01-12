@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		B9D8B879200893C300E12728 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D8B878200893C300E12728 /* AppDelegate.swift */; };
-		B9D8B87B200893C300E12728 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D8B87A200893C300E12728 /* ViewController.swift */; };
-		B9D8B87E200893C300E12728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D8B87C200893C300E12728 /* Main.storyboard */; };
 		B9D8B880200893C300E12728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D8B87F200893C300E12728 /* Assets.xcassets */; };
 		B9D8B883200893C300E12728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D8B881200893C300E12728 /* LaunchScreen.storyboard */; };
 		B9D8B88E200893C300E12728 /* ReadMoreButton_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D8B88D200893C300E12728 /* ReadMoreButton_iOSTests.swift */; };
 		B9D8B899200893C300E12728 /* ReadMoreButton_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D8B898200893C300E12728 /* ReadMoreButton_iOSUITests.swift */; };
+		B9D8B8A82008942800E12728 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D8B8A62008942800E12728 /* ViewController.swift */; };
+		B9D8B8A92008942800E12728 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9D8B8A72008942800E12728 /* ViewController.xib */; };
+		B9D8B8AF2008950400E12728 /* ExpandableLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D8B8AA2008950300E12728 /* ExpandableLabelTests.swift */; };
+		B9D8B8B02008950400E12728 /* ExpandableLabelTests.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9D8B8AB2008950300E12728 /* ExpandableLabelTests.xib */; };
+		B9D8B8B12008950400E12728 /* ExpandableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D8B8AC2008950300E12728 /* ExpandableLabel.swift */; };
+		B9D8B8B22008950400E12728 /* ExpandableLabelTestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D8B8AD2008950400E12728 /* ExpandableLabelTestCell.swift */; };
+		B9D8B8B32008950400E12728 /* ExpandableLabelTestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9D8B8AE2008950400E12728 /* ExpandableLabelTestCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +41,6 @@
 /* Begin PBXFileReference section */
 		B9D8B875200893C300E12728 /* ReadMoreButton-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReadMoreButton-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D8B878200893C300E12728 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B9D8B87A200893C300E12728 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B9D8B87D200893C300E12728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B9D8B87F200893C300E12728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9D8B882200893C300E12728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9D8B884200893C300E12728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,13 @@
 		B9D8B894200893C300E12728 /* ReadMoreButton-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReadMoreButton-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D8B898200893C300E12728 /* ReadMoreButton_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadMoreButton_iOSUITests.swift; sourceTree = "<group>"; };
 		B9D8B89A200893C300E12728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9D8B8A62008942800E12728 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9D8B8A72008942800E12728 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		B9D8B8AA2008950300E12728 /* ExpandableLabelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableLabelTests.swift; sourceTree = "<group>"; };
+		B9D8B8AB2008950300E12728 /* ExpandableLabelTests.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpandableLabelTests.xib; sourceTree = "<group>"; };
+		B9D8B8AC2008950300E12728 /* ExpandableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableLabel.swift; sourceTree = "<group>"; };
+		B9D8B8AD2008950400E12728 /* ExpandableLabelTestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableLabelTestCell.swift; sourceTree = "<group>"; };
+		B9D8B8AE2008950400E12728 /* ExpandableLabelTestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpandableLabelTestCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +108,13 @@
 			isa = PBXGroup;
 			children = (
 				B9D8B878200893C300E12728 /* AppDelegate.swift */,
-				B9D8B87A200893C300E12728 /* ViewController.swift */,
-				B9D8B87C200893C300E12728 /* Main.storyboard */,
+				B9D8B8A62008942800E12728 /* ViewController.swift */,
+				B9D8B8A72008942800E12728 /* ViewController.xib */,
+				B9D8B8AC2008950300E12728 /* ExpandableLabel.swift */,
+				B9D8B8AD2008950400E12728 /* ExpandableLabelTestCell.swift */,
+				B9D8B8AE2008950400E12728 /* ExpandableLabelTestCell.xib */,
+				B9D8B8AA2008950300E12728 /* ExpandableLabelTests.swift */,
+				B9D8B8AB2008950300E12728 /* ExpandableLabelTests.xib */,
 				B9D8B87F200893C300E12728 /* Assets.xcassets */,
 				B9D8B881200893C300E12728 /* LaunchScreen.storyboard */,
 				B9D8B884200893C300E12728 /* Info.plist */,
@@ -232,9 +247,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9D8B8B02008950400E12728 /* ExpandableLabelTests.xib in Resources */,
 				B9D8B883200893C300E12728 /* LaunchScreen.storyboard in Resources */,
+				B9D8B8A92008942800E12728 /* ViewController.xib in Resources */,
+				B9D8B8B32008950400E12728 /* ExpandableLabelTestCell.xib in Resources */,
 				B9D8B880200893C300E12728 /* Assets.xcassets in Resources */,
-				B9D8B87E200893C300E12728 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9D8B87B200893C300E12728 /* ViewController.swift in Sources */,
+				B9D8B8B12008950400E12728 /* ExpandableLabel.swift in Sources */,
+				B9D8B8A82008942800E12728 /* ViewController.swift in Sources */,
+				B9D8B8AF2008950400E12728 /* ExpandableLabelTests.swift in Sources */,
+				B9D8B8B22008950400E12728 /* ExpandableLabelTestCell.swift in Sources */,
 				B9D8B879200893C300E12728 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +316,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B9D8B87C200893C300E12728 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B9D8B87D200893C300E12728 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B9D8B881200893C300E12728 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

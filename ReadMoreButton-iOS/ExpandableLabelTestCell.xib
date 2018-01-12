@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="17C88" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="75" id="KGk-i7-Jjw" customClass="ExpandableLabelTestCell" customModule="IODModels" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="74.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="paZ-ob-l7j" customClass="ExpandableLabel" customModule="IODModels" customModuleProvider="target">
+                        <rect key="frame" x="8" y="8" width="304" height="59"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="paZ-ob-l7j" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Mvl-xb-MbM"/>
+                    <constraint firstAttribute="trailing" secondItem="paZ-ob-l7j" secondAttribute="trailing" constant="8" id="Sup-Wg-dIf"/>
+                    <constraint firstAttribute="bottom" secondItem="paZ-ob-l7j" secondAttribute="bottom" constant="8" id="ZT2-ox-OsY"/>
+                    <constraint firstItem="paZ-ob-l7j" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="uX3-Gm-XCJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="testLabel" destination="paZ-ob-l7j" id="zd2-3O-QPC"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="67.5"/>
+        </tableViewCell>
+    </objects>
+</document>
